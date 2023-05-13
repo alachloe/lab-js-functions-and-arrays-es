@@ -9,7 +9,7 @@ const maxOfTwoNumbers = (numUno, numDos) => {
   };
  
   // Iteración #2: Encontrar la palabra más larga  
-  const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot', 'esternocleidomastoideo'];
+  const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
   const findLongestWord = (matrizDePalabras) => {
     if (matrizDePalabras.length === 0) return null;
     let palabraMasLarga = '';
